@@ -9,19 +9,19 @@
             <div class="grid grid-cols-2 gap-4">
                 <div class="space-y-2">
                     <label class="block font-bold" for="name">Nama</label>
-                    <input class="w-full px-4 py-2 border rounded-lg" type="text" id="name" placeholder="Masukkan Nama" name="name" readonly>
+                    <input value="<?= $student['name']?>" class="w-full px-4 py-2 border rounded-lg" type="text" id="name" placeholder="Masukkan Nama" name="name" readonly>
                 </div>
                 <div class="space-y-2">
                     <label class="block font-bold" for="nis">NIS</label>
-                    <input class="w-full px-4 py-2 border rounded-lg" type="text" id="nis" placeholder="Masukkan NIS" name="nis" readonly>
+                    <input value="<?= $student['nis'] ?>" class="w-full px-4 py-2 border rounded-lg" type="text" id="nis" placeholder="Masukkan NIS" name="nis" readonly>
                 </div>
                 <div class="space-y-2">
                     <label class="block font-bold" for="class">Kelas</label>
-                    <input class="w-full px-4 py-2 border rounded-lg" type="text" id="class" placeholder="Masukkan Kelas" name="class" readonly>
+                    <input value="<?= $student['class'] ?>" class="w-full px-4 py-2 border rounded-lg" type="text" id="class" placeholder="Masukkan Kelas" name="class" readonly>
                 </div>
                 <div class="space-y-2">
                     <label class="block font-bold" for="no">No Telepon</label>
-                    <input class="w-full px-4 py-2 border rounded-lg" type="text" id="no" placeholder="Masukkan Nomor Telepon" name="no" readonly>
+                    <input value="<?= $student['phone_number'] ?>" class="w-full px-4 py-2 border rounded-lg" type="text" id="no" placeholder="Masukkan Nomor Telepon" name="no" readonly>
                 </div>
                 <div class="flex justify-end col-span-2 gap-4">
                     <a href="/students" class="py-2 px-4 bg-gray-100 rounded-lg">Kembali</a>

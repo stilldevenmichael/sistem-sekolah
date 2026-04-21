@@ -6,7 +6,7 @@
         </div>
   
         <div class="bg-white shadow rounded-lg p-4">
-            <form action="" class="grid grid-cols-2 gap-4">
+            <form action="/students" method="POST" class="grid grid-cols-2 gap-4">
                 <div class="space-y-2">
                     <label class="block font-bold" for="name">Nama</label>
                     <input class="w-full px-4 py-2 border rounded-lg" type="text" id="name" placeholder="Masukkan Nama" name="name">
@@ -20,8 +20,8 @@
                     <input class="w-full px-4 py-2 border rounded-lg" type="text" id="class" placeholder="Masukkan Kelas" name="class">
                 </div>
                 <div class="space-y-2">
-                    <label class="block font-bold" for="no">No Telepon</label>
-                    <input class="w-full px-4 py-2 border rounded-lg" type="text" id="no" placeholder="Masukkan Nomor Telepon" name="no">
+                    <label class="block font-bold" for="phone_number">No Telepon</label>
+                    <input class="w-full px-4 py-2 border rounded-lg" type="text" id="phone_number" placeholder="Masukkan Nomor Telepon" name="phone_number">
                 </div>
                 <div class="flex justify-end col-span-2 gap-4">
                     <a href="/students" class="py-2 px-4 bg-gray-100 rounded-lg">Kembali</a>
